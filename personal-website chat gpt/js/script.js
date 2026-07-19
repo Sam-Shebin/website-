@@ -1,0 +1,1 @@
+const roles=['Neuroscience Student','Aspiring Neurosurgeon','Programmer','Hardware Enthusiast'];let i=0;setInterval(()=>{typing.textContent=roles[i++%roles.length]},1500);typing.textContent=roles[0];theme.onclick=()=>document.body.classList.toggle('light');
