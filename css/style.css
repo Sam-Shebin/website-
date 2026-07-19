@@ -1,33 +1,194 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
+
 
 body {
-    min-height: 100vh;
-    background: linear-gradient(135deg, #eaf6ff, #ffffff);
-    font-family: "Inter", "Segoe UI", Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #123047;
+    font-family: "Inter", "Segoe UI", sans-serif;
+    background:#f7fbff;
+    color:#123047;
 }
 
-.container {
-    text-align: center;
-    padding: 40px;
+
+header {
+    height:90px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 8%;
 }
+
+
+.logo {
+    width:55px;
+    height:55px;
+    border-radius:50%;
+    background:#4aa3df;
+    color:white;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-weight:700;
+    font-size:18px;
+}
+
+
+nav {
+    display:flex;
+    gap:45px;
+}
+
+
+nav a {
+
+    text-decoration:none;
+    color:#365568;
+    font-size:17px;
+
+    transition:.3s;
+}
+
+
+nav a:hover {
+    color:#1683c7;
+}
+
+
+
+.hero {
+
+    min-height:calc(100vh - 90px);
+
+    display:flex;
+    align-items:center;
+
+    padding:0 8%;
+
+    position:relative;
+    overflow:hidden;
+}
+
+
+
+.content {
+
+    z-index:2;
+
+}
+
+
+
+.hello {
+
+    color:#4aa3df;
+
+    font-size:14px;
+    letter-spacing:4px;
+
+    margin-bottom:25px;
+}
+
+
 
 h1 {
-    font-size: 3.5rem;
-    font-weight: 700;
-    letter-spacing: -1px;
-    margin-bottom: 15px;
+
+    font-size:90px;
+
+    line-height:.95;
+
+    letter-spacing:-4px;
+
+    font-weight:800;
+
+    color:#102a43;
+
 }
 
-p {
-    font-size: 1.3rem;
-    color: #49677d;
-    font-weight: 400;
+
+
+.line {
+
+    width:120px;
+    height:5px;
+
+    background:#4aa3df;
+
+    margin:35px 0;
+
+    border-radius:20px;
+
+}
+
+
+
+h2 {
+
+    font-size:30px;
+
+    font-weight:500;
+
+    color:#526b7a;
+
+}
+
+
+
+.shape {
+
+    position:absolute;
+
+    right:-150px;
+    top:100px;
+
+}
+
+
+
+.circle {
+
+    width:550px;
+    height:550px;
+
+    border-radius:50%;
+
+    background:
+    linear-gradient(
+        135deg,
+        #dff3ff,
+        #a9ddff
+    );
+
+}
+
+
+
+@media(max-width:700px){
+
+    nav {
+        display:none;
+    }
+
+
+    h1 {
+        font-size:60px;
+    }
+
+
+    h2 {
+        font-size:22px;
+    }
+
+
+    .circle {
+
+        width:300px;
+        height:300px;
+
+        opacity:.5;
+    }
+
 }
