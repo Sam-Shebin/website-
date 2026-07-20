@@ -1,92 +1,433 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Shebin Sam</title>
+    <title>Shebin Sam | UC San Diego Student</title>
 
-<link rel="stylesheet" href="style.css">
+    <meta name="description" content="Shebin Sam - UC San Diego student exploring neuroscience, software development, AI, and technology.">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
-
 
 <body>
 
+    <!-- Background Decorations -->
+    <div class="blob blob-one"></div>
+    <div class="blob blob-two"></div>
 
-<div class="background"></div>
+    <!-- Navigation -->
+    <header class="navbar-container">
+        <nav class="navbar">
 
+            <a href="#home" class="logo">
+                Shebin Sam
+            </a>
 
-<header>
+            <div class="nav-links">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
 
-<div class="logo">
-SS
-</div>
+            <button class="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
 
-
-<nav>
-<a href="#">About</a>
-<a href="#">Projects</a>
-<a href="#">Resume</a>
-<a href="#">Contact</a>
-</nav>
-
-</header>
-
-
-
-<main>
-
-
-<div class="hero">
-
-
-<div class="left">
-
-
-<div class="tag">
-PORTFOLIO
-</div>
+        </nav>
+    </header>
 
 
-<h1>
-Shebin<br>
-Sam
-</h1>
+    <!-- Hero -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="hero-tag">
+                Welcome to my portfolio
+            </p>
+
+            <h1>
+                Shebin Sam
+            </h1>
+
+            <h2>
+                Student at UC San Diego
+            </h2>
+
+            <p class="hero-description">
+                Exploring the intersection of neuroscience,
+                software development, artificial intelligence,
+                and technology.
+            </p>
 
 
-<div class="divider"></div>
+            <div class="hero-buttons">
+
+                <a href="#projects" class="btn primary">
+                    View Projects
+                </a>
+
+                <a href="#contact" class="btn secondary">
+                    Contact
+                </a>
+
+            </div>
 
 
-<h2>
-Student at UCSD
-</h2>
+            <div class="scroll-indicator">
+                <span></span>
+                Scroll to Explore
+            </div>
 
 
-</div>
+        </div>
 
-
-
-<div class="visual">
-
-
-<div class="blob"></div>
-
-
-<div class="card">
-
-</div>
-
-
-</div>
+    </section>
 
 
 
-</div>
+    <!-- About -->
+    <section class="section about" id="about">
+
+        <div class="section-container">
+
+            <div class="profile-container">
+
+                <div class="profile-circle">
+                    SS
+                </div>
+
+            </div>
 
 
-</main>
+            <div class="about-content">
 
+                <p class="section-label">
+                    About Me
+                </p>
+
+                <h2>
+                    Building at the intersection of science and technology.
+                </h2>
+
+
+                <p>
+                    Hello! I'm Shebin, a neuroscience student at
+                    UC San Diego interested in medicine, artificial
+                    intelligence, hardware, and software development.
+                </p>
+
+
+                <p>
+                    I enjoy building projects that combine technical
+                    problem solving with real-world applications.
+                </p>
+
+
+                <div class="learning">
+
+                    <h3>
+                        Currently Learning
+                    </h3>
+
+                    <ul>
+                        <li>Web Development</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>Neuroscience Research</li>
+                    </ul>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <!-- Skills -->
+    <section class="section skills" id="skills">
+
+        <div class="section-header">
+
+            <p class="section-label">
+                Skills
+            </p>
+
+            <h2>
+                Technologies & Interests
+            </h2>
+
+        </div>
+
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+                HTML
+            </div>
+
+            <div class="skill-card">
+                CSS
+            </div>
+
+            <div class="skill-card">
+                JavaScript
+            </div>
+
+            <div class="skill-card">
+                Python
+            </div>
+
+            <div class="skill-card">
+                Git
+            </div>
+
+            <div class="skill-card">
+                C++
+            </div>
+
+            <div class="skill-card">
+                Research
+            </div>
+
+            <div class="skill-card">
+                Problem Solving
+            </div>
+
+            <div class="skill-card">
+                Neuroscience
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <!-- Projects -->
+    <section class="section projects" id="projects">
+
+        <div class="section-header">
+
+            <p class="section-label">
+                Projects
+            </p>
+
+            <h2>
+                Featured Work
+            </h2>
+
+        </div>
+
+
+        <div class="projects-grid">
+
+
+            <article class="project-card">
+
+                <div class="project-number">
+                    01
+                </div>
+
+                <h3>
+                    Responsive Neurostimulation
+                </h3>
+
+                <p>
+                    Research project exploring neural interfaces
+                    and responsive stimulation technologies.
+                </p>
+
+                <div class="tags">
+
+                    <span>
+                        Neuroscience
+                    </span>
+
+                    <span>
+                        Research
+                    </span>
+
+                    <span>
+                        Medical Technology
+                    </span>
+
+                </div>
+
+
+                <a href="#">
+                    View →
+                </a>
+
+            </article>
+
+
+
+
+            <article class="project-card">
+
+                <div class="project-number">
+                    02
+                </div>
+
+                <h3>
+                    PC Troubleshooting Toolkit
+                </h3>
+
+                <p>
+                    A personal project focused on diagnosing
+                    hardware failures, crashes, and system issues.
+                </p>
+
+
+                <div class="tags">
+
+                    <span>
+                        Python
+                    </span>
+
+                    <span>
+                        Hardware
+                    </span>
+
+                    <span>
+                        Debugging
+                    </span>
+
+                </div>
+
+
+                <a href="#">
+                    View →
+                </a>
+
+
+            </article>
+
+
+
+
+
+            <article class="project-card">
+
+                <div class="project-number">
+                    03
+                </div>
+
+                <h3>
+                    Coming Soon
+                </h3>
+
+                <p>
+                    More projects currently being developed.
+                </p>
+
+
+                <div class="tags">
+
+                    <span>
+                        Development
+                    </span>
+
+                </div>
+
+
+                <a href="#">
+                    View →
+                </a>
+
+
+            </article>
+
+
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- Contact -->
+    <section class="section contact" id="contact">
+
+        <div class="contact-box">
+
+            <p class="section-label">
+                Contact
+            </p>
+
+
+            <h2>
+                Let's Connect
+            </h2>
+
+
+            <p>
+                Interested in collaboration or discussing technology?
+                Feel free to reach out.
+            </p>
+
+
+            <div class="contact-links">
+
+                <a href="mailto:your-email@example.com">
+                    Email
+                </a>
+
+                <a href="#">
+                    GitHub
+                </a>
+
+                <a href="#">
+                    LinkedIn
+                </a>
+
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+
+
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            Made with HTML, CSS & JavaScript
+        </p>
+
+        <p>
+            © 2026 Shebin Sam
+        </p>
+
+    </footer>
+
+
+
+    <script src="script.js"></script>
 
 </body>
 </html>
